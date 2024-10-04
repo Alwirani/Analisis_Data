@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # Load the dataset
-df = pd.read_csv("final_dataset.csv")
+df = pd.read_csv("https://github.com/Alwirani/Analisis_Data/blob/0f7848360186293ab0edb986edec2c7b738861b0/dashboard/final_dataset.csv")
 
 # Convert datetime columns
 df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
