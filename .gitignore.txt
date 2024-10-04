@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribusi paket
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Lingkungan virtual
+.env/
+.venv/
+.env
+env/
+venv/
+env.bak/
+venv.bak/
+
+# File editor atau IDE tertentu
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# File log dan database
+*.log
+*.sqlite3
+
+# File konfigurasi sistem operasi
+.DS_Store
+Thumbs.db
+
+# File dari alat tertentu
+*.h5
+*.hdf5
+*.csv
+
+# File notebook Jupyter yang tidak penting
+.ipynb_checkpoints/
